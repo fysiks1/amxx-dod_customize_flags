@@ -23,9 +23,9 @@ public plugin_init()
 
 public plugin_precache() 
 {
-	flag_set = register_cvar("dod_cpflag_set", "models/76AD/AD76_Flags01.mdl");
-	flag_n = register_cvar("dod_cpflag_n", "models/76AD/AD76_n.mdl");
-	flag_u = register_cvar("dod_cpflag_u", "models/76AD/AD76_u.mdl");
+	flag_set = register_cvar("dod_cpflag_set", "models/mapmodels/flags.mdl");
+	flag_n = register_cvar("dod_cpflag_n", "models/w_wflag.mdl");
+	flag_u = register_cvar("dod_cpflag_u", "models/w_aflag.mdl");
 	register_forward(FM_KeyValue, "fm_keyvalue");
 }
 
